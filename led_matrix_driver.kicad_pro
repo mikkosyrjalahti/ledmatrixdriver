@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|100715000|148400000|3f20a816-b10e-45e9-a766-c16ab55392b6|68d2079a-2eb9-4efb-8a3b-00595b6c9e9a",
+        "hole_clearance|104185000|148400000|05f05214-cadc-44c3-aceb-adb7b6673b43|3c1a7fc1-a7cb-46a9-867e-cdda3b8bd16e",
+        "hole_clearance|107290000|148450000|2d2c36ed-efb8-408a-a945-036545aa44b3|82171c0c-1bf6-4651-aa5a-ad41e8f6135a",
+        "hole_clearance|110760000|148450000|32c6f289-dd8e-4ec4-9633-1dd3af67edf8|9cceff7a-f801-4c80-ab85-55750a762d07"
+      ],
       "meta": {
         "version": 2
       },
@@ -558,13 +563,43 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DK",
+          "name": "DK",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

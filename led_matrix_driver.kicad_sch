@@ -10258,6 +10258,7 @@
 	)
 	(label "OE"
 		(at 97.79 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10615,6 +10616,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 20.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8e2855f-a839-4206-b595-261b3c30aabd")
 		)
@@ -10646,7 +10656,7 @@
 				)
 			)
 		)
-		(property "Value" "CK_KMS2xxGP"
+		(property "Value" "CK KMS221GPLFS"
 			(at 30.48 97.79 0)
 			(effects
 				(font
@@ -10673,6 +10683,15 @@
 			)
 		)
 		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, with pegs, with shield pin"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "401-1614-1-ND"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -10751,6 +10770,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "015a7a31-753a-4f8a-92b4-a835da7e8831")
 		)
@@ -10808,6 +10836,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "-"
 			(at 20.32 39.37 0)
 			(effects
 				(font
@@ -11148,6 +11185,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "296-4754-1-ND"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "71434e31-586d-4d8f-944a-703780acb51c")
 		)
@@ -11336,6 +11382,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ee9a308-3a4a-4af8-85af-2a6852eabd3b")
 		)
@@ -11393,6 +11448,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "AZ1117CH-3.3TRG1DICT-ND"
 			(at 29.21 66.04 0)
 			(effects
 				(font
@@ -11503,7 +11567,7 @@
 				)
 			)
 		)
-		(property "Value" "CK_KMS2xxGP"
+		(property "Value" "CK KMS221GPLFS"
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -11530,6 +11594,15 @@
 			)
 		)
 		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, with pegs, with shield pin"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "401-1614-1-ND"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -11740,6 +11813,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 24.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0bf6840-2a04-4333-9f79-3adafc354d44")
 		)
@@ -11866,6 +11948,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "-"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -12303,6 +12394,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c565a882-fc8a-4779-91b0-8a5b014f5e39")
 		)
@@ -12363,6 +12463,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "2648-SC0917-ND"
 			(at 127 154.94 0)
 			(effects
 				(font
@@ -12564,6 +12673,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 208.28 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "led_matrix_driver"
 				(path "/b7927d9d-6777-4285-8925-4cdef0a998cd"
@@ -12750,6 +12868,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-1006-1-ND"
 			(at 128.27 16.51 0)
 			(effects
 				(font
@@ -13291,6 +13418,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "1276-1006-1-ND"
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ae75bef-d985-4f65-b770-4847502d0828")
 		)
@@ -13490,6 +13626,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "541-0.0GCT-ND"
+			(at 54.61 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef7b4b08-2a91-4d4c-b8f3-ccddf061defa")
 		)
@@ -13549,6 +13694,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-1006-1-ND"
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -13894,6 +14048,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "296-4754-1-ND"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "09264a2a-932c-4bdb-8ce0-cae62e61a819")
 		)
@@ -14085,6 +14248,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 208.28 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/b7927d9d-6777-4285-8925-4cdef0a998cd"
@@ -14141,6 +14313,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 33.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "5407-ESP32-WROOM-32E-N16CT-ND"
 			(at 33.02 151.13 0)
 			(effects
 				(font
@@ -14327,6 +14508,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "541-0.0GCT-ND"
+			(at 54.61 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4e1b595-8926-481b-b6be-581138f8614a")
 		)
@@ -14389,6 +14579,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "-"
 			(at 190.5 162.56 0)
 			(effects
 				(font
@@ -14583,6 +14782,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1568-DEV-15583-ND"
 			(at 236.22 101.6 0)
 			(effects
 				(font
@@ -14879,6 +15087,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4de3917-f311-416c-b510-f8a902a6c176")
 		)
@@ -14953,6 +15170,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 190.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "-"
 			(at 190.5 157.48 0)
 			(effects
 				(font

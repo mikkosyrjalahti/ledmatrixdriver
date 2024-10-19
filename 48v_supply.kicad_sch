@@ -3721,6 +3721,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-7.50KHRCT-ND"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d868b64-63ee-4171-9182-4b23252dde81")
 		)
@@ -3874,6 +3883,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-5039-1-ND"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83acc536-86e3-422f-a87b-ed5fca7ae619")
 		)
@@ -3933,6 +3951,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM15BR71E473KTCT-ND"
 			(at 72.39 114.3 0)
 			(effects
 				(font
@@ -4077,6 +4104,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-4.42KHRCT-ND"
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ccd2e8af-a7ed-4f65-a98a-afd0b6119288")
 		)
@@ -4147,6 +4183,15 @@
 			)
 		)
 		(property "MPN" "GCM32DC72A475KE02L"
+			(at 74.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "587-5039-1-ND"
 			(at 74.93 29.21 0)
 			(effects
 				(font
@@ -4299,6 +4344,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-5039-1-ND"
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29c587b3-7129-4f49-a269-4be78b57b4b2")
 		)
@@ -4353,7 +4407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC100N10NSF-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b49a75b607b57"
+		(property "Datasheet" "~"
 			(at 182.88 102.87 0)
 			(effects
 				(font
@@ -4373,6 +4427,15 @@
 			)
 		)
 		(property "MPN" "TPH4R50ANH1,LQ"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "264-TPH4R50ANH1LQCT-ND"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -4449,6 +4512,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-1006-1-ND"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -4535,6 +4607,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-5039-1-ND"
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "618d38d5-d0d8-494e-9fa2-335355edb4de")
 		)
@@ -4605,6 +4686,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-17.8KHRCT-ND"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67887cda-7a83-43ab-b27d-d7f67b837d82")
 		)
@@ -4667,6 +4757,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-17.8KHRCT-ND"
 			(at 143.51 114.3 0)
 			(effects
 				(font
@@ -4753,6 +4852,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-3718-1-ND"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae7781d8-9d0d-42fa-9af6-9cae7ae7ee65")
 		)
@@ -4812,6 +4920,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1276-1134-1-ND"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -4882,6 +4999,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-17.8KHRCT-ND"
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -4968,6 +5094,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-3718-1-ND"
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8ea4b0b-bdce-48a5-99d6-3d72f7379632")
 		)
@@ -5030,6 +5165,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-150HRCT-ND"
 			(at 36.83 82.55 0)
 			(effects
 				(font
@@ -5165,6 +5309,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "-"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -5380,6 +5533,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-5039-1-ND"
+			(at 83.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "683ab58b-7398-4d64-bbb1-e0716bafb06b")
 		)
@@ -5439,6 +5601,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "490-1355-1-ND"
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -5514,6 +5685,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "1276-6807-1-ND"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c218d28-f6ed-44df-9aa2-b7475fe2d644")
 		)
@@ -5573,6 +5753,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "541-0.0GCT-ND"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -5717,6 +5906,15 @@
 			)
 		)
 		(property "MPN" "JMK325B7476KMHTR"
+			(at 236.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "587-3718-1-ND"
 			(at 236.22 92.71 0)
 			(effects
 				(font
@@ -5927,6 +6125,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "SML-D12M1WT86CT-ND"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce596e32-e6fe-4e32-8ec9-4e9bc6c3deb1")
 		)
@@ -5981,7 +6188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC100N10NSF-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b49a75b607b57"
+		(property "Datasheet" "~"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -6001,6 +6208,15 @@
 			)
 		)
 		(property "MPN" "PXN020-100QSJ"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1727-PXN020-100QSJCT-ND"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -6087,6 +6303,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "-"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0560fde-987b-4c93-a073-0cdcb4e6c36f")
 		)
@@ -6146,6 +6371,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-23.2KHRCT-ND"
 			(at 46.99 93.98 0)
 			(effects
 				(font
@@ -6287,6 +6521,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "490-11477-1-ND"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57489263-c8b0-49c1-a5ae-a8ca21197fe5")
 		)
@@ -6351,6 +6594,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-LV5144RGYRCT-ND"
 			(at 80.01 74.93 0)
 			(effects
 				(font
@@ -6486,6 +6738,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-100KHRCT-ND"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07b0b7d1-8667-4d84-932b-20628595318f")
 		)
@@ -6548,6 +6809,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "399-14996-1-ND"
 			(at 36.83 93.98 0)
 			(effects
 				(font
@@ -6699,6 +6969,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "587-3718-1-ND"
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "37b15900-24ab-41d6-a6ed-c517567c371d")
 		)
@@ -6760,6 +7039,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "587-5039-1-ND"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -6841,6 +7129,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "DK" "P17073CT-ND"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6979,6 +7276,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "SML-D12M1WT86CT-ND"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bc35307-1a62-4d84-a115-a44502cf3e3a")
 		)
@@ -7046,6 +7352,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "541-0.0GCT-ND"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b8e6515-d7fc-4dd6-b619-6ec1e414940d")
 		)
@@ -7105,6 +7420,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "311-499HRCT-ND"
 			(at 128.27 133.35 0)
 			(effects
 				(font
@@ -7183,6 +7507,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK" "311-23.2KHRCT-ND"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ae7d076-9295-4dd5-ace4-af9a2434f749")
 		)
@@ -7242,6 +7575,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "478-KGM15ACG1H100JTCT-ND"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -7386,6 +7728,15 @@
 			)
 		)
 		(property "MPN" "JMK325B7476KMHTR"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "587-3718-1-ND"
 			(at 209.55 92.71 0)
 			(effects
 				(font
