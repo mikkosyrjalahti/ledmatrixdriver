@@ -2090,6 +2090,12 @@
 		(uuid "c0d4e4fc-36ce-4465-9156-cfdfb2d646b6")
 	)
 	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c738080d-212a-44d8-8399-b75032e180a3")
+	)
+	(junction
 		(at 227.33 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2331,6 +2337,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 68.58) (xy 60.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a707a0-66a4-49c5-a58f-69c07dfff1f1")
+	)
+	(wire
+		(pts
 			(xy 72.39 110.49) (xy 80.01 110.49)
 		)
 		(stroke
@@ -2438,6 +2454,16 @@
 			(type default)
 		)
 		(uuid "34473c6b-a060-4768-8337-fdd698fa67dd")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3450029e-11c6-47dd-9268-8e5b47e9e307")
 	)
 	(wire
 		(pts
@@ -2901,6 +2927,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 82.55) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964bd235-8ce1-456d-a361-e39ffc4fb318")
+	)
+	(wire
+		(pts
 			(xy 152.4 99.06) (xy 172.72 99.06)
 		)
 		(stroke
@@ -2981,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 25.4) (xy 130.81 25.4)
+			(xy 180.34 25.4) (xy 130.81 25.4)
 		)
 		(stroke
 			(width 0.5)
@@ -3008,16 +3044,6 @@
 			(type default)
 		)
 		(uuid "a51760c1-fb04-442f-941f-a4dde3eba1db")
-	)
-	(wire
-		(pts
-			(xy 179.07 36.83) (xy 180.34 36.83)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "a848b355-1748-4f68-b156-58f29eee59b0")
 	)
 	(wire
 		(pts
@@ -3071,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 179.07 25.4)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "bbbc1f82-0284-43ba-81ca-9b20d76c49d5")
-	)
-	(wire
-		(pts
 			(xy 77.47 81.28) (xy 77.47 82.55)
 		)
 		(stroke
@@ -3098,6 +3114,16 @@
 			(type default)
 		)
 		(uuid "bd2fc421-8577-41a7-bd28-d26da46b9ebf")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4a8f62-b887-43df-9453-f81fa34bdf89")
 	)
 	(wire
 		(pts
@@ -3231,7 +3257,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 36.83) (xy 180.34 69.85)
+			(xy 180.34 25.4) (xy 180.34 69.85)
 		)
 		(stroke
 			(width 0.5)
@@ -3431,6 +3457,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 82.55) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3437f27-0b93-401d-bfd7-c804a0f414ef")
+	)
+	(wire
+		(pts
 			(xy 143.51 118.11) (xy 143.51 128.27)
 		)
 		(stroke
@@ -3478,6 +3514,16 @@
 			(type default)
 		)
 		(uuid "fdf25199-4d7a-4a63-8185-e220bb8aa777")
+	)
+	(text "SYNCIN low enables diode\nemulation and discontinous mode\n"
+		(exclude_from_sim no)
+		(at 65.532 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e0586db-8d3a-4a75-9bb1-7ad5febd97e5")
 	)
 	(label "LO"
 		(at 156.21 99.06 0)
@@ -3730,6 +3776,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114634"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d868b64-63ee-4171-9182-4b23252dde81")
 		)
@@ -3892,6 +3947,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83acc536-86e3-422f-a87b-ed5fca7ae619")
 		)
@@ -3960,6 +4024,15 @@
 			)
 		)
 		(property "DK" "478-KGM15BR71E473KTCT-ND"
+			(at 72.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107093"
 			(at 72.39 114.3 0)
 			(effects
 				(font
@@ -4050,6 +4123,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "220c28fe-10ae-41b8-919e-a824d1da46d6")
+		(property "Reference" "#PWR047"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1f5293e-8f72-4783-a165-47041772a75b")
+		)
+		(instances
+			(project "led_matrix_driver"
+				(path "/b7927d9d-6777-4285-8925-4cdef0a998cd/9e244fda-5412-4243-b7a9-2d4c20099563"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 46.99 105.41 0)
 		(unit 1)
@@ -4105,6 +4244,15 @@
 			)
 		)
 		(property "DK" "311-4.42KHRCT-ND"
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933223"
 			(at 46.99 105.41 0)
 			(effects
 				(font
@@ -4192,6 +4340,15 @@
 			)
 		)
 		(property "DK" "587-5039-1-ND"
+			(at 74.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 74.93 29.21 0)
 			(effects
 				(font
@@ -4353,6 +4510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29c587b3-7129-4f49-a269-4be78b57b4b2")
 		)
@@ -4387,7 +4553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TPH4R50ANH1,LQ"
+		(property "Value" "SIR826BDP-T1-RE3"
 			(at 184.15 100.3299 0)
 			(effects
 				(font
@@ -4436,6 +4602,15 @@
 			)
 		)
 		(property "DK" "264-TPH4R50ANH1LQCT-ND"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6296763"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -4493,7 +4668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.6548 80.01 0)
 			(effects
 				(font
@@ -4520,7 +4695,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1276-1006-1-ND"
+		(property "DK" "478-KGM21NR71E104KTCT-ND"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -4616,6 +4800,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "618d38d5-d0d8-494e-9fa2-335355edb4de")
 		)
@@ -4695,6 +4888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2933161"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67887cda-7a83-43ab-b27d-d7f67b837d82")
 		)
@@ -4766,6 +4968,15 @@
 			)
 		)
 		(property "DK" "311-17.8KHRCT-ND"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933161"
 			(at 143.51 114.3 0)
 			(effects
 				(font
@@ -4861,6 +5072,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77101"
+			(at 227.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae7781d8-9d0d-42fa-9af6-9cae7ae7ee65")
 		)
@@ -4929,6 +5149,15 @@
 			)
 		)
 		(property "DK" "1276-1134-1-ND"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23630"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -5008,6 +5237,15 @@
 			)
 		)
 		(property "DK" "311-17.8KHRCT-ND"
+			(at 130.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933161"
 			(at 130.81 41.91 0)
 			(effects
 				(font
@@ -5103,6 +5341,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77101"
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8ea4b0b-bdce-48a5-99d6-3d72f7379632")
 		)
@@ -5174,6 +5421,15 @@
 			)
 		)
 		(property "DK" "311-150HRCT-ND"
+			(at 36.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22808"
 			(at 36.83 82.55 0)
 			(effects
 				(font
@@ -5270,7 +5526,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6ba70ad0-5f89-448b-b731-2ac85360f62e")
 		(property "Reference" "TP2"
 			(at 66.802 77.978 0)
@@ -5318,6 +5574,15 @@
 			)
 		)
 		(property "DK" "-"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -5542,6 +5807,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C381466"
+			(at 83.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "683ab58b-7398-4d64-bbb1-e0716bafb06b")
 		)
@@ -5618,6 +5892,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107038"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d79aa64-962f-439e-ba10-a25e3503d589")
 		)
@@ -5658,7 +5941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.3648 44.45 0)
 			(effects
 				(font
@@ -5686,6 +5969,15 @@
 			)
 		)
 		(property "DK" "1276-6807-1-ND"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28233"
 			(at 100.33 48.26 0)
 			(effects
 				(font
@@ -5762,6 +6054,15 @@
 			)
 		)
 		(property "DK" "541-0.0GCT-ND"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -5923,6 +6224,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77101"
+			(at 236.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "843191a1-95d6-4822-89a2-c56a63685861")
 		)
@@ -5933,6 +6243,91 @@
 			(project "led_matrix_driver"
 				(path "/b7927d9d-6777-4285-8925-4cdef0a998cd/9e244fda-5412-4243-b7a9-2d4c20099563"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9070b588-2f69-4bed-919c-612f2b3c842b")
+		(property "Reference" "R15"
+			(at 67.056 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 67.056 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "541-0.0GCT-ND"
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4ab1b69-7b46-4f29-a12b-decb3b7158ba")
+		)
+		(pin "1"
+			(uuid "547d2aed-68f0-459b-9643-f5c43c32b78d")
+		)
+		(instances
+			(project "led_matrix_driver"
+				(path "/b7927d9d-6777-4285-8925-4cdef0a998cd/9e244fda-5412-4243-b7a9-2d4c20099563"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6098,7 +6493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 130.81 33.02 0)
 			(effects
 				(font
@@ -6126,6 +6521,15 @@
 			)
 		)
 		(property "DK" "SML-D12M1WT86CT-ND"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965815"
 			(at 130.81 33.02 0)
 			(effects
 				(font
@@ -6168,7 +6572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PXN020-100QSJ"
+		(property "Value" "BSC070N10NS5"
 			(at 184.15 76.1999 0)
 			(effects
 				(font
@@ -6198,7 +6602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 10.0mOhm Ron, Qg (typ) 33.0nC, PG-TDSON-8"
+		(property "Description" "100V 80A 2.5W 7mΩ@10V,40A 3.8V@50uA 1 N-Channel TDSON-8-EP(5x6) MOSFETs ROHS "
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -6207,7 +6611,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PXN020-100QSJ"
+		(property "MPN" "BSC070N10NS5"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -6216,7 +6620,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1727-PXN020-100QSJCT-ND"
+		(property "DK" "BSC070N10NS5ATMA1CT-ND"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C534364"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -6256,7 +6669,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "96535cde-0f0b-4f97-9c7d-0d1f3d790234")
 		(property "Reference" "TP1"
 			(at 79.248 77.978 0)
@@ -6304,6 +6717,15 @@
 			)
 		)
 		(property "DK" "-"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -6380,6 +6802,15 @@
 			)
 		)
 		(property "DK" "311-23.2KHRCT-ND"
+			(at 46.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23346"
 			(at 46.99 93.98 0)
 			(effects
 				(font
@@ -6530,6 +6961,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1631"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57489263-c8b0-49c1-a5ae-a8ca21197fe5")
 		)
@@ -6603,6 +7043,15 @@
 			)
 		)
 		(property "DK" "296-LV5144RGYRCT-ND"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C34042097"
 			(at 80.01 74.93 0)
 			(effects
 				(font
@@ -6747,6 +7196,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14675"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07b0b7d1-8667-4d84-932b-20628595318f")
 		)
@@ -6818,6 +7276,15 @@
 			)
 		)
 		(property "DK" "399-14996-1-ND"
+			(at 36.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 36.83 93.98 0)
 			(effects
 				(font
@@ -6978,6 +7445,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77101"
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "37b15900-24ab-41d6-a6ed-c517567c371d")
 		)
@@ -7048,6 +7524,15 @@
 			)
 		)
 		(property "DK" "587-5039-1-ND"
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C381466"
 			(at 66.04 29.21 0)
 			(effects
 				(font
@@ -7132,6 +7617,15 @@
 			)
 		)
 		(property "DK" "P17073CT-ND"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C542341"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -7240,7 +7734,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED green"
+		(property "Value" "LED red"
 			(at 147.32 108.2674 90)
 			(effects
 				(font
@@ -7249,7 +7743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -7277,6 +7771,15 @@
 			)
 		)
 		(property "DK" "SML-D12M1WT86CT-ND"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94741"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -7361,6 +7864,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b8e6515-d7fc-4dd6-b619-6ec1e414940d")
 		)
@@ -7429,6 +7941,15 @@
 			)
 		)
 		(property "DK" "311-499HRCT-ND"
+			(at 128.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23065"
 			(at 128.27 133.35 0)
 			(effects
 				(font
@@ -7516,6 +8037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2933218"
+			(at 62.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ae7d076-9295-4dd5-ace4-af9a2434f749")
 		)
@@ -7584,6 +8114,15 @@
 			)
 		)
 		(property "DK" "478-KGM15ACG1H100JTCT-ND"
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106245"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -7737,6 +8276,15 @@
 			)
 		)
 		(property "DK" "587-3718-1-ND"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77101"
 			(at 209.55 92.71 0)
 			(effects
 				(font
