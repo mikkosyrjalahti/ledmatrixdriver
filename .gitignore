@@ -1,0 +1,39 @@
+# KiCad lock files
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*.kicad_prl.lck
+
+# KiCad autosave and backup files
+_autosave-*.kicad_*
+*-backups/
+*.kicad_*-bak
+
+# KiCad cache and generated files
+fp-info-cache
+*.kicad_pro.user
+
+# KiCad generated output directories
+bom/
+mfg/
+production/
+fabrication/
+gerbers/
+*.net
+*.kicad_net
+
+# Project files that can be regenerated
+*.zip
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Text editor temporary files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Other generated/temporary
+*.tmp
