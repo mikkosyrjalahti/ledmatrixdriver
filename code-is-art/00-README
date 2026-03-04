@@ -1,0 +1,9 @@
+
+After unpacking the sources zip, trying to build with "cmake ." and "make" might fail
+with compilation errors about architecture not supporting __wfi() etc...
+
+On my system this can be fixed simply by running "cmake ." again ... why? No idea.
+
+You might want to copy pico_sdk_import.cmake from your pico-sdk directory
+and don't remember to 'git submodule update --init' after cloning the SDK
+or you'll get missing includes for lwip and cyw43.

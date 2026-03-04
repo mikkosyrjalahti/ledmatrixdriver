@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+* { font-family:monospace; }
+body { background-color: #000; text-align: center; }
+img  { width: 100%; height: auto; }
+#canvas
+{ border-style: solid; border-color: #444; border-width: 1px;
+    image-rendering: pixelated; }
+button, .fx {
+    border-style: solid; border-color: #a38; border-width: 2px; border-radius: 10pt;
+    width: 130px; padding: 5pt 10pt 5pt 10pt; font-size: 10pt;
+    color: #f8c; background-color: #000; display: inline-block;
+    text-decoration: none; }
+button:hover, .fx:hover { border-color: #f8c; }
+button:active, .fx:active { border-color: #826; }
+</style>
+<script>
+function $(id) { return document.getElementById(id); }
+
+var ctx;
+
+function init() {
+    var canvas = $("canvas");
+
+    // scale it bigger
+    canvas.style.width = canvas.width * 3 + "px";
+    canvas.style.height = canvas.height * 3 + "px";
+    
+    ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#000";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    var img = document.createElement("img");
+    img.src = Math.floor(Math.random() * 50)==0 ? "other.png" : "default.png";
+    img.addEventListener("load", function () {
+        ctx.fillStyle = "#000";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // compute max aspect
+        var ax = img.width / canvas.width;
+        var ay = img.height / canvas.height;
+
+        if(ax > ay)
+        {
+            var h = (ay/ax)*canvas.height;
+            ctx.drawImage(img, 0, .5 * (canvas.height-h), canvas.width, h);
+        }
+        else
+        {
+            var w = (ax/ay)*canvas.width;
+            ctx.drawImage(img, .5*(canvas.width-w), 0, w, canvas.height);
+        }
+    }, false);
+
+    canvas.addEventListener("dragover", function (ev)
+    {
+        ev.preventDefault();
+    }, false);
+    canvas.addEventListener("dragenter", function (ev)
+    {
+        canvas.style.borderColor = "#4d4";
+        ev.preventDefault();
+    }, false);
+    canvas.addEventListener("dragleave", function (ev)
+    {
+        canvas.style.borderColor = "#444";
+        ev.preventDefault();
+    }, false);
+
+    canvas.addEventListener("drop", function (ev)
+    {
+        canvas.style.borderColor = "#444";
+        
+        var files = ev.dataTransfer.files;
+        if (files.length == 1
+        && typeof FileReader !== "undefined"
+        && files[0].type.indexOf("image") != -1)
+        {
+            var reader = new FileReader();
+            reader.onload = function (ev)
+            {
+            	img.src = ev.target.result;
+            };
+            reader.readAsDataURL(files[0]);
+        }
+        ev.preventDefault();
+    }, false);
+
+
+    $("load").addEventListener("change", function (ev)
+    {
+        var reader = new FileReader();
+        reader.onload = function (ev)
+        {
+        	img.src = ev.target.result;
+        };
+        reader.readAsDataURL(ev.target.files[0])
+        ev.preventDefault();
+    });
+};
+
+var xhr = new XMLHttpRequest();
+function send()
+{
+    var canvas = $("canvas");
+    xhr.open("POST", "setimg");
+    xhr.setRequestHeader("Content-Type", "application/blob");
+
+    var idata = ctx.getImageData(0,0,canvas.width,canvas.height);
+    var wdata = new Uint8Array(canvas.width*canvas.height*4);
+    // yes, we have to copy this crap 'cos Javascript
+    for(var y = 0; y < canvas.height; ++y)
+    {
+        var yw = y*canvas.width;
+        for(var x = 0; x < canvas.width; ++x)
+        {
+            wdata[4*(x+yw)+0] = idata.data[4*(x+yw)+0];
+            wdata[4*(x+yw)+1] = idata.data[4*(x+yw)+1];
+            wdata[4*(x+yw)+2] = idata.data[4*(x+yw)+2];
+            wdata[4*(x+yw)+3] = 0;
+        }
+    }
+    xhr.send(wdata);
+};
+
+</script>
+</head>
+<body onLoad="init()">
+<div style="color: #444;">drag&drop target and preview:</div>
+<div>
+<canvas id="canvas" width="88" height="88"></canvas>
+</div>
+<div>
+<button id="load" onClick="$('loadfile').click()">
+    <input type="file" id="loadfile" style="display:none;"/>Load image&hellip;</button>
+<button id="send" onClick="send()">Send it!</button>
+</div>
+<div>
+<div style="color: #444; margin: 20pt; ">Enable special FX:</div>
+<a class="fx" href="/science">Science</a>
+<a class="fx" href="/magic">Magic</a>
+<a class="fx" href="/spoon">Spoon</a>
+</div>
+<div style="margin: 20pt; ">
+<a style="color: #f8c;" href="/sources.zip">source code</a></div>
+</body></html>

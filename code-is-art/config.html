@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head>
+<style>
+* { font-family: monospace; }
+</style>
+</head><body onLoad="init()">
+<div style="text-align:center;">
+<form action="/set_wificonfig" method="post">
+<br/><br/>
+Select WIFI network to join:<br/><br/>
+SSID: <input type="text" id="ssid" name="ssid" maxlength="32"/><br/>
+PASS: <input type="text" id="pass" name="pass" maxlength="64"/><br/>
+<input type="submit" value="Store & Reboot" />
+</form>
+<br/><br/>
+Leave SSID empty to reboot into AP mode.<br/>
+Leave password empty for open networks.<br/>
+<a href="/panel.html">panel interface here</a>
+</div>
+</body></html>
